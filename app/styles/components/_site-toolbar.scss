@@ -1,0 +1,14 @@
+.site-toolbar {
+	.nav-pills {
+		li {
+			a {
+				display:inline;
+				padding:0;
+				border-radius:0;
+			}
+		}
+		li.divider {
+			padding:0 10px;
+		}
+	}
+}

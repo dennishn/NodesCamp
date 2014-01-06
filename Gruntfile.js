@@ -373,6 +373,11 @@ module.exports = function (grunt) {
                 files: {
                     '<%= yeoman.app %>/': ['<%= yeoman.app %>/templates/pages/index.hbs']
                 }
+            },
+            elements: {
+				files: {
+					'<%= yeoman.app %>/styleguide/elements/': ['<%= yeoman.app %>/patterns/elements/*.hbs']
+				}
             }
         }
     });
