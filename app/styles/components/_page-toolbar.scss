@@ -1,0 +1,13 @@
+.page-toolbar {
+	margin:0;
+	padding: $padding-x-l 0;
+	color:#929292;
+	h2 {
+		margin:0;
+	}
+	hr {
+		margin: $padding-x-l 0 $padding-x-s 0;
+		border-top-color: #fff;
+		border-bottom:1px solid #ccc;
+	}
+}

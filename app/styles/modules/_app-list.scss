@@ -1,0 +1,33 @@
+.app-list {
+	padding:0;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	.app-item {
+		border-bottom: 1px solid #ccc;
+		&:last-of-type {
+			border-bottom: none;
+		}
+		> .row {
+			> :first-child {
+				@media (min-width: $screen-sm-min) {
+					border-right: 1px solid #ccc;
+				}
+			}
+			margin: 0;
+			> [class*="col-"] {
+				margin: 0;
+				padding: 15px;
+			}
+		}
+	}
+	.app-title {
+		h4 {
+			margin-top: 8px;
+			margin-bottom: 8px;
+		}
+	}
+	.app-icons {
+		padding-top: 1px;
+	}
+}

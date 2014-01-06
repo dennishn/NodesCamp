@@ -1,0 +1,25 @@
+.secondary-navigation {
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	border-right: 1px solid #cccccc;
+	background-image: linear-gradient(left, #f5f4f4, #ffffff);
+	transition: none; transition: none;
+	a.list-group-item {
+		margin-right: -1px;
+		padding: 23px;
+		background-image: linear-gradient(top, #ffffff, #f5f4f4);
+		border-radius: 0;
+		&:hover, &:focus {
+			background-image: linear-gradient(top, #f5f4f4, #fff);
+		}
+		&.active, &.active:hover, &.active:focus {
+			z-index: 0;
+		}
+		&.active {
+			color: #555555;
+			border: 1px solid #dddddd;
+			background-image: linear-gradient(top, darken(#ffffff, 5%), darken(#f5f4f4, 5%));
+		}
+
+	}
+}
